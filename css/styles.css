@@ -1,0 +1,160 @@
+body {
+	font-family: 'Tajawal', sans-serif;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+	background-color: #333;
+	margin: 0;
+	padding: 0 }
+
+/* IMAGE BACKGROUND */
+.container-fluid img {
+	-webkit-box-shadow: 0 0 8px 4px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 0 8px 4px rgba(0, 0, 0, .5);
+	box-shadow: 0 0 8px 4px rgba(0, 0, 0, .5) }
+
+/* STYLES GLOBALE */
+.gloable {
+	position: absolute;
+	width: 8%;
+    height: auto;
+    opacity: 0;
+    cursor: pointer;
+    transform: scale(0.5);
+    -webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s }
+
+.gloable:hover {
+	transform: scale(1.3);
+	width: 8%;
+	height: auto;
+	opacity: 1 }
+
+.card-body { padding: 3px }
+
+.card-body .card-title,
+.gloable:hover .card-body .card-title {
+	margin: 0;
+	padding: 0;
+	font-size: 16px }
+
+.card-body .card-text,
+.gloable:hover .card-body .card-text { font-size: 14px }
+
+
+/* This Is Style Mosque Card */
+/* MOSQUE */
+.mosque {
+    top: 17%;
+    left: 40% }
+/* MOSQUE 2 */
+.mosque-2 {
+    top: 50%;
+    left: 12% }
+
+/* This Is Style OFFICE Card */
+.office-right,
+.office-left {
+	transform: scale(1);
+	top: 94% }
+
+.office-right { left: 65% }
+.office-left { left: 20% }
+.office-right:hover,
+.office-left:hover { transform: scale(1.7) }
+
+/* ATTACHMENT */
+.attachment {
+	top: 17%;
+	left: 21%
+}
+
+/* CLINIC */
+.clinic {
+	top: 16%;
+	left: 64%
+}
+
+/* PARK */
+.park {
+	top: 92%;
+	left: 78%
+}
+
+/* AREA */
+.area {
+	top: 36%;
+	left: 31%
+}
+
+.area:hover {
+	transform: scale(2);
+}
+
+/* electricity station */
+.station {
+	top: 72%;
+	left: 73%
+}
+/* This Is Style Flat Card */
+/* FLAT */
+.flat,
+.flat-2,
+.flat-4 { top: 17% }
+
+.flat { left: 59% }
+.flat-2 { left: 13% }
+
+.flat-3 {
+	top: 82%;
+    left: 12% }
+
+.flat-4 { left: 79% }
+
+
+/* This Is Style Block Of Flat Card */
+/* Block Of Flat */
+.BOF {
+	top: 82%;
+	left: 73% }
+
+.BOF-2 {
+	top: 68%;
+	left: 63% }
+
+.BOF-3 {
+	top: 68%;
+	left: 22% }
+
+.BOF-4 {
+	top: 72%;
+	left: 79% }
+
+/* This Is VILA Card */
+/* VILA */
+.vila {
+	top: 108%;
+	left: 41%
+}
+
+.vila-2 {
+	top: 30%;
+	left: 75%
+}
+
+.vila-3 {
+	top: 47%;
+    left: 16%
+}
+/***** MEDIA *****/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/* MOSQUE & FLAT */
+	.mosque, 
+	.flat { top: 12% }
+
+	/* OFFICE RIGHT & OFFICE LEFT */
+	.office-right,
+	.office-left { top: 70% }
+}
